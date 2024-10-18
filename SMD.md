@@ -7,7 +7,7 @@ As a test system to show the procedure for parameterizing a guess path, we take 
 Starting from the bound state of the complex, we pull along the distance between the ligand and the binding site. In particular, we take as CV the distance between the geometric centers of the low-fluctuating $\alpha$ carbons of the intra-membrane region of the receptor (ca) and the ligand's heavy atoms (alp). We do this in a 10 ns SMD simulation, where we increase the distance from its initial value to a target value of 30.0 Å and using a force constant of 100 kcal/(mol * $Å^2$). For the receptor's atoms, we can take the residue list from the published work. Fill in the following plumed template to perform the SMD simulation:
 
 ```plumed
-#SOLUTIONFILE=plumed_solutions/plumed_SMD.dat
+#SOLUTIONFILE=data/plumed_SMD.dat
 MOLINFO STRUCTURE=__FILL__
 
 WHOLEMOLECULES ENTITY0=__FILL__ ENTITY1=__FILL__

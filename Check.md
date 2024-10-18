@@ -3,7 +3,7 @@
 We can now use the *REPARAM.pdb* file as reference path for Path CVs. However, it is advisable to run some diagnostics to evaluate its reliability before utilizing it for resampling. For instance, we can see in practice how the Path CVs map the configurations of the system by projecting the SMD trajectory in the Path CV space. Fill in the following plumed template to re-analyze the SMD trajectory and get the values of $S(\mathbf{R})$ and $Z(\mathbf{R})$: 
 
 ```plumed
-#SOLUTIONFILE=plumed_solutions/plumed_Check.dat
+#SOLUTIONFILE=data/plumed_Check.dat
 MOLINFO STRUCTURE=__FILL__
 
 WHOLEMOLECULES ENTITY0=__FILL__ ENTITY1=__FILL__
