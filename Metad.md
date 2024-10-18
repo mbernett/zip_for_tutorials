@@ -7,7 +7,7 @@ An important aspect here is that you may need to renumber the atom number column
 We now have all we need to set up a metad simulation. We will bias the $S(\mathbf{R})$ and $Z(\mathbf{R})$ CVs. We take metad simulation parameters from this publication: https://doi.org/10.1021/acs.jctc.9b00450
 Specifically, we set Gaussian width to 0.1 for $S(\mathbf{R})$ and 1 $Å^2$ for $Z(\mathbf{R})$, Gaussian height to 0.2 kcal/mol, temperature to 310 K, bias factor to 15, and Gaussians deposition time  to 1 ps. Finally, we can re-sample remaining closer to the configurational space sampled by the original SMD that we have used to parameterize the guess path. To this end, we can limit the region of the phase space accessible during the simulation by placing a suitable ``UPPER_WALL`` on $Z(\mathbf{R})$, e.g. at 3.0 $Å^2$. Fill in the following plumed template to perform such a metad simulation:
 
-```
+```plumed
 #SOLUTIONFILE=plumed_solutions/plumed_Metad.dat
 
 MOLINFO STRUCTURE=__FILL__
