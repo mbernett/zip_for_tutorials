@@ -53,7 +53,7 @@ Note that:
 
 * The further you go on $Z(\mathbf{R})$, the less meaningful and more degenerate will become the mapping on $S(\mathbf{R})$, so that sampling will become inconvenient and, most remarkably, less efficient the exploitation of your computational resources.
 
-It is also important to note that the metad simulation time of 50 ns used here is solely intended for illustrative purposes, as no attempts have been made to assess the convergence of the free energy or evaluate the statistical error (the range covered by $S(\mathbf{S})$ was not even fully sampled!). We recommend dedicated Plumed Tutorials or Masterclasses for a thorough exploration of these issues. To provide an order of magnitude, a metad sampling of approximately 2 $\mu \text{s}$ was utilized in this study https://doi.org/10.1021/acs.jctc.9b00450 to obtain meaningful results.
+It is also important to note that the metad simulation time of 50 ns used here is solely intended for illustrative purposes, as no attempts have been made to assess the convergence of the free energy or evaluate the statistical error (the range covered by $S(\mathbf{R})$ was not even fully sampled!). We recommend dedicated Plumed Tutorials or Masterclasses for a thorough exploration of these issues. To provide an order of magnitude, a metad sampling of approximately 2 $\mu \text{s}$ was utilized in this study https://doi.org/10.1021/acs.jctc.9b00450 to obtain meaningful results.
 
 
 
