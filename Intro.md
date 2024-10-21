@@ -33,5 +33,5 @@ However, in practical applications, particularly when the path is parameterized 
 
 This tutorial focuses on the parameterization of an initial guess path for a drug-target complex binding, using steered MD simulations to generate the initial frameset, and starting from the bound state of the complex. For the generation of the initial guess path we will make use of Tcl scripts kindly provided by the author of the method (<u>Davide Branduardi</u>).
 
-At [this](analysis_path_tutorial.ipynb) link we provide a Jupyter Notebook to reproduce the plots shown in this tutorial. We also provide inputs to run the simulations, as well as a [sample output trajectory](https://github.com/mbernett/zip_for_tutorials/tree/master/tutorial_binding_path_outputs/SMD_50ns) from steered MD.
+At [this](https://github.com/mbernett/zip_for_tutorials/tree/master/analysis_path_tutorial.ipynb) link we provide a Jupyter Notebook to reproduce the plots shown in this tutorial. We also provide inputs to run the simulations, as well as a [sample output trajectory](https://github.com/mbernett/zip_for_tutorials/tree/master/tutorial_binding_path_outputs/SMD_50ns) from steered MD.
 
